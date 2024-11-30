@@ -5,12 +5,16 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1d4ad0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button:active {
+  background: green;
 }
 
 a {
@@ -43,7 +47,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: pointer;
+  cursor: crosshair;
   transition: border-color 0.25s;
 }
 button:hover {
@@ -65,4 +69,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+p {
+  color: white;
 }
